@@ -1,0 +1,53 @@
+body {
+  padding: 10px;
+  width: 400px;
+  background-color: #1c1c1c;
+  color: white;
+}
+
+.problem {
+  display: flex;
+  align-items: center;
+}
+
+.buttons {
+  margin-top: 2rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+#saveButton,
+#downloadButton {
+  padding: 5px 10px;
+  background-color: #23714d;
+  color: #f1ccba;
+  border: none;
+  border-radius: 2px;
+  transition: transform 0.5s linear;
+}
+
+button:hover {
+  background-color: #f1ccba;
+  color: #23714d;
+  font-weight: 600;
+  transform: scale(1.05);
+}
+
+.message {
+  border: 1px solid red;
+  border-radius: 4px;
+  padding: 1rem;
+  color: #23714d;
+  margin-top: 1rem;
+}
+
+#githubAuthorize {
+  padding: 5px 10px;
+  background-color: #23714d;
+  color: #f1ccba;
+  border: none;
+  border-radius: 2px;
+  transition: transform 0.5s linear;
+  display: none;
+}
