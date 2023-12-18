@@ -7,7 +7,7 @@
 //   );
 //   console.log(authorizationCode);
 
-//   // ... your code to exchange the code for an access token ...
+//   
 // }
 
 // // Function to extract the authorization code from the redirect URL
@@ -29,6 +29,5 @@ chrome.webNavigation.onCompleted.addListener(function (details) {
     )
   ) {
     console.log("Callback URL received:", details.url);
-    // ... your existing code ...
   }
 });
